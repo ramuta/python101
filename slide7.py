@@ -9,6 +9,9 @@ some_list = ["Ana", "Jack", "Marfat", "Yago"]
 for person in some_list:
     print person
 
+some_list.append("Matej")
+
+print some_list.index("Matej")
 
 # Tuples
 """ Similar to lists, but you cannot add new items (immutable).

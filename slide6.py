@@ -36,6 +36,11 @@ while num < 10:
 
 print "----"
 
+if name is "matej":
+    print "you get a cookie"
+
+print "----"
+
 
 # Task: Guess the secret number game
 from random import randint
