@@ -17,6 +17,7 @@ print some_list.index("Matej")
 """ Similar to lists, but you cannot add new items (immutable).
 A workaround is converting to list, adding new value and then converting back to tuple.
 Or joining two tuples.
+Tuples are simpler than lists and thus faster and more memory efficient.
 Tuples are good for grouping data, for examples coordinates (long,lat).
 You can store different long-lat pairs in a list: [(89.32,123.53554), (45.2332, 115.23), (33.33, 22.22)]
 """
